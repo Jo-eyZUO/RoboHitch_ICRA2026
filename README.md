@@ -2,7 +2,7 @@
 
 **Learning Visual Affordance from Disordered Keypoints for Hitch Knots Tying**
 
-[Paper](paper/RoboHitch_ICRA2026.pdf) | [Poster](poster/RoboHitch_ICRA2026_Poster.pdf) | [Video](media/RoboHitch_Video.mp4)
+[Paper](paper/RoboHitch_ICRA2026.pdf) | [Poster](poster/ICRA_RoboHitch_Poster_A0.pdf) | [Video](media/RoboHitch_Video.mp4)
 
 RoboHitch is a learning-based framework for single-arm robotic hitch knot tying. Instead of relying on a fragile ordered rope topology, RoboHitch learns from human demonstrations using unordered 3D rope keypoints and RGB observations. A dynamic graph autoencoder extracts geometric features from disordered rope keypoints, a convolutional autoencoder encodes visual context, and bidirectional cross-attention fuses both modalities to predict pick, rotation, and place affordances.
 
@@ -13,11 +13,11 @@ RoboHitch is a learning-based framework for single-arm robotic hitch knot tying.
 ## Paper and Media
 
 - Paper PDF: [`paper/RoboHitch_ICRA2026.pdf`](paper/RoboHitch_ICRA2026.pdf)
-- Poster PDF: [`poster/RoboHitch_ICRA2026_Poster.pdf`](poster/RoboHitch_ICRA2026_Poster.pdf)
+- Poster PDF: [`poster/RoboHitch_ICRA2026_Poster.pdf`](poster/ICRA_RoboHitch_Poster_A0.pdf)
 - Demo video: [`media/RoboHitch_Video.mp4`](media/RoboHitch_Video.mp4)
 
 <p align="center">
-  <a href="poster/RoboHitch_ICRA2026_Poster.pdf">
+  <a href="poster/ICRA_RoboHitch_Poster_A0">
     <img src="assets/images/poster_preview.png" width="72%" alt="RoboHitch poster preview">
   </a>
 </p>
@@ -137,8 +137,8 @@ RobotHitch_github/
   README.md
   paper/
     RoboHitch_ICRA2026.pdf
-  poster/
-    RoboHitch_ICRA2026_Poster.pdf
+  /
+    ICRA_RoboHitch__A0.pdf
   media/
     RoboHitch_Video.mp4
   assets/
